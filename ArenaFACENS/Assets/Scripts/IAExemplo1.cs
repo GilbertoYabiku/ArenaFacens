@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class IAExemplo1 : MonoBehaviour {
 
@@ -9,16 +8,14 @@ public class IAExemplo1 : MonoBehaviour {
     [SerializeField]
 	LayerMask detectable; //Filtra o que é detectável por CharacterCommands.GetVision()
 	Vector3 distance; //Distância entre o objeto e o personagem
-	Text playerNameText; //Nome do seu personagem
+	
 
 	//public Variables
-	public string playerName;
     public CharacterBehaviours characterBehaviours; //Esse é o script que possui as funções padrões e atributos do personagem
 
     // Player initialization
-    void Start () {
-		playerNameText = GetComponentInChildren<Text> ();   //PlayerNameText é um componente do canvas filho do prefab. Deve ser referenciado dessa maneira para que o nome do seu personagem apareça na tela do jogo
-		playerNameText.text = playerName;
+    void Awake () {
+        characterBehaviours.PlayerName = "Player Name"; //Nome do seu personagem
 
         //Esses são os atributos que influeciam no desempenho do seu personagem no momento. Você tem 10 pontos para distribuir entre esses atributos:
         characterBehaviours.Vision = 5;

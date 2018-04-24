@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour {
 
 	private int hunger = 5, sanity = 5, health = 20, vision = 5, speed = 5, attack = 5, score = 0; //Player stats
+    private string playerName;
 	List<Transform> foundItems = new List<Transform>(); //List of collectable itens found by CharacterCommands.GetVision()
     bool isOut = false;
 
@@ -29,7 +30,7 @@ public class Character : MonoBehaviour {
             if (!isOut)
             {
                 isOut = true;
-                print(name + " is Out!");               
+                print(PlayerName + " is Out!");               
             }
         }
     }
@@ -136,5 +137,18 @@ public class Character : MonoBehaviour {
 			foundItems = value;
 		}
 	}
-	#endregion
+
+    public string PlayerName
+    {
+        get
+        {
+            return playerName;
+        }
+
+        set
+        {
+            playerName = value;
+        }
+    }
+    #endregion
 }

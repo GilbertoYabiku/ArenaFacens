@@ -309,6 +309,7 @@
     <Compile Include="Assets\Scripts\Character\CharacterBehaviours.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterCommands.cs" />
     <Compile Include="Assets\Scripts\IAExemplo1.cs" />
+    <Compile Include="Assets\Scripts\IAExemplo2.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\Other\Items.cs" />
