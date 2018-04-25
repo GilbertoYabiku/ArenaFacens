@@ -17,9 +17,9 @@ public class IAExemplo1 : MonoBehaviour {
     void Awake () {
         characterBehaviours.PlayerName = "Player Name"; //Nome do seu personagem
 
-        //Esses são os atributos que influeciam no desempenho do seu personagem no momento. Você tem 10 pontos para distribuir entre esses atributos:
-        characterBehaviours.Vision = 5;
-        characterBehaviours.Speed = 5;
+        //Esses são os atributos que influeciam no desempenho do seu personagem no momento. Você tem 15 pontos para distribuir entre esses atributos:
+        characterBehaviours.Vision = 11;
+        characterBehaviours.Speed = 4;
 	}
 	
     //Essa parte do script é executada a cada 2 frames, é aqui que iremos chamar as funções do CharacterCommands

@@ -213,7 +213,6 @@ MonoBehaviour:
   detectable:
     serializedVersion: 2
     m_Bits: 256
-  playerName: '[PlayerName]'
   characterBehaviours: {fileID: 114831648182934588}
 --- !u!114 &114831648182934588
 MonoBehaviour:
@@ -259,13 +258,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 814f264843199ec45bd264826b9976b6, type: 3}
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300002, guid: 9af11cfc40f6f5d40bfcc6ad2d323a23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0625, y: 1.8125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
