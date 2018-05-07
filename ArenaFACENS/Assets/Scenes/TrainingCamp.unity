@@ -8923,7 +8923,7 @@ MonoBehaviour:
   - {fileID: 1648314038407152, guid: b22630a3ab3312348aec4723e8584a90, type: 2}
   - {fileID: 1648314038407152, guid: b22630a3ab3312348aec4723e8584a90, type: 2}
   items:
-  - {fileID: 1359599550711654, guid: 481d681c7c4305248a5062501843677d, type: 2}
+  - {fileID: 1359599550711654, guid: 39b35a36108c4ee4599cc1e50cbfb223, type: 2}
   - {fileID: 1359599550711654, guid: 9bc064d9714132f4caa022d0caeacfa7, type: 2}
   itemNumber: 30
   spawnList:

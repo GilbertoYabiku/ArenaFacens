@@ -23,9 +23,12 @@ public class ReplayRecord : MonoBehaviour {
         {
             player = FindObjectOfType<ReplayPlayer>();
         }
-        player.Add (this);
-		maxLength = player.maxLength;
-		frames = new List<Frame> ();
+        if (player)
+        {
+            player.Add(this);
+            maxLength = player.maxLength;
+            frames = new List<Frame>();
+        }
 	}
 
 	void Update()
