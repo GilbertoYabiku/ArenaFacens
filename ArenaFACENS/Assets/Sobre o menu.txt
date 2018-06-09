@@ -1,0 +1,3 @@
+para colocar seu personagem em uma das cenas é necessário que ele esteja na pasta Resources/Prefabs. No menu coloque o nome do prefab (provavelmente "RA[seuRA]") e aperte enter.
+Se não acontecer nada é porque deu certo. Caso contrário um erro aparecerá pra avisar que seu prefab não foi encontrado.
+Depois disso clique em um dos botões para entrar no desafio respectivo.

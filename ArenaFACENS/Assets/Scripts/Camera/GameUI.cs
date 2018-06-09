@@ -28,6 +28,6 @@ public class GameUI : MonoBehaviour {
         CharacterBehaviours player = cam.Target.GetComponent<CharacterBehaviours>();
         playerName.text = player.name;
         playerScore.text = "Score: " + player.Score.ToString();
-        playerHunger.text = "Energy: " + player.Hunger.ToString();
+        playerHunger.text = "Energy: " + player.Energy.ToString();
     }
 }

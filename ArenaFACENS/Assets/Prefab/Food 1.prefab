@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212724609733061022}
   - component: {fileID: 61516375195973382}
   - component: {fileID: 114397200319646498}
-  - component: {fileID: 114565253794829516}
+  - component: {fileID: 114322839958799106}
   m_Layer: 8
   m_Name: Food 1
   m_TagString: Food
@@ -68,6 +68,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114322839958799106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1359599550711654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dc0ce78dd0ed4ba0ce4415b07317e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 50
+  holder: {fileID: 0}
+  hungerRegain: 5
+  healthRegain: 10
 --- !u!114 &114397200319646498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -81,20 +96,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   m_animation: {fileID: 0}
---- !u!114 &114565253794829516
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1359599550711654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 296d1b1c2819b2d4795c269c98153258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 50
-  hungerRegain: 5
-  holder: {fileID: 0}
 --- !u!212 &212724609733061022
 SpriteRenderer:
   m_ObjectHideFlags: 1

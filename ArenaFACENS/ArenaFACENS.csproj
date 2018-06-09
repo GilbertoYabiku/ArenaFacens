@@ -308,16 +308,26 @@
     <Compile Include="Assets\Scripts\Character\Character.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterBehaviours.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterCommands.cs" />
-    <Compile Include="Assets\Scripts\IAExemplo1.cs" />
-    <Compile Include="Assets\Scripts\IAExemplo2.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SpawnManager.cs" />
-    <Compile Include="Assets\Scripts\Other\Items.cs" />
+    <Compile Include="Assets\Scripts\MapGen\AutoTiler.cs" />
+    <Compile Include="Assets\Scripts\Other\DummyIA.cs" />
+    <Compile Include="Assets\Scripts\Other\IAExemple.cs" />
+    <Compile Include="Assets\Scripts\Other\Item\Food.cs" />
+    <Compile Include="Assets\Scripts\Other\Item\Items.cs" />
+    <Compile Include="Assets\Scripts\Other\Item\Treasure.cs" />
+    <Compile Include="Assets\Scripts\Other\Item\Weapon.cs" />
     <Compile Include="Assets\Scripts\Other\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Other\UI.cs" />
     <Compile Include="Assets\Scripts\Replay\AnimationRecord.cs" />
     <Compile Include="Assets\Scripts\Replay\Frame.cs" />
     <Compile Include="Assets\Scripts\Replay\ReplayPlayer.cs" />
     <Compile Include="Assets\Scripts\Replay\ReplayRecord.cs" />
+    <Compile Include="Assets\Scripts\Rule Tiles\RuleTile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sobre o menu.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

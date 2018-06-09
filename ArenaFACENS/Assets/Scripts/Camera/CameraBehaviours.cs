@@ -29,17 +29,21 @@ public class CameraBehaviours : MonoBehaviour {
 		}
 		if (!isTracking) {
 			if (Input.GetKey(KeyCode.RightArrow)) {
-				transform.position += new Vector3 (camSpeed, 0, 0) * Time.deltaTime;
+                //transform.position += new Vector3 (camSpeed, 0, 0) * Time.deltaTime;
+                transform.Translate(new Vector2(camSpeed, 0), Space.Self);
 			}
 			else if (Input.GetKey(KeyCode.LeftArrow)) {
-				transform.position += new Vector3 (-camSpeed, 0, 0) * Time.deltaTime;
-			}
+                //transform.position += new Vector3 (-camSpeed, 0, 0) * Time.deltaTime;
+                transform.Translate(new Vector2(-camSpeed, 0), Space.Self);
+            }
 			if (Input.GetKey(KeyCode.UpArrow)) {
-				transform.position += new Vector3 (0, camSpeed, 0) * Time.deltaTime;
-			}
+                //transform.position += new Vector3 (0, camSpeed, 0) * Time.deltaTime;
+                transform.Translate(new Vector2(0, camSpeed), Space.Self);
+            }
 			else if (Input.GetKey(KeyCode.DownArrow)) {
-				transform.position += new Vector3 (0, -camSpeed, 0) * Time.deltaTime;
-			}
+                //transform.position += new Vector3 (0, -camSpeed, 0) * Time.deltaTime;
+                transform.Translate(new Vector2(0, -camSpeed), Space.Self);
+            }
 		}
 		if (isTracking) {
 			if (Input.GetKeyDown(KeyCode.Period)) {

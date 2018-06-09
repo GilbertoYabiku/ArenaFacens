@@ -10,6 +10,7 @@ public class SpawnManager : MonoBehaviour {
 	public List<Spawner> spawnList = new List<Spawner> ();
 
 	void Awake(){
+		characters = GameManager.Instance.Scripts;
 		SpawnItems ();
 		SpawnCharacters ();
 	}
