@@ -14,4 +14,9 @@ public class UI : MonoBehaviour {
     {
         SceneManager.LoadScene("Challenge 2");
     }
+
+    public void CarregaChallenge()
+    {
+        SceneManager.LoadScene("Challenge");
+    }
 }
